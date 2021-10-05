@@ -16,7 +16,7 @@ namespace Chapter_1.ricksGuitars_encapsulation
         }
 
         public void addGuitar(String serialNumber, double price,
-                              Builder builder, String model,
+                              Builder builder, string model,
                               Type type, Wood backWood, Wood topWood)
         {
             Guitar guitar = new Guitar(serialNumber, price, builder,

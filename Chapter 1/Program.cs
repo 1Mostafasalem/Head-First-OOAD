@@ -8,14 +8,17 @@ namespace Chapter_1
         {
             Console.WriteLine("Hello!!");
 
-            //Start
+            ////Start
             //ricksGuitars_start.FindGuitarTester.main(args);
 
-            //choices(After Add Enums)
+            ////choices(After Add Enums)
             //ricksGuitars_choices.FindGuitarTester.main(args);
 
-            //Encapsulation
-            ricksGuitars_encapsulation.FindGuitarTester.main(args);
+            ////Encapsulation
+            //ricksGuitars_encapsulation.FindGuitarTester.main(args);
+
+            //Final(Delegate)
+            ricksGuitars_final.FindGuitarTester.main(args);
 
         }
     }

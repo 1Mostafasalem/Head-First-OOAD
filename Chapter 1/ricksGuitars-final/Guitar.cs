@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Chapter_1.ricksGuitars_encapsulation
+namespace Chapter_1.ricksGuitars_final
 {
     public class Guitar
     {
@@ -12,14 +12,13 @@ namespace Chapter_1.ricksGuitars_encapsulation
         private double price;
         GuitarSpec spec;
 
-        public Guitar(string _serialNumber, double _price,
-                      Builder _builder, string _model, Type _type,
-                      Wood _backWood, Wood _topWood)
+        public Guitar(String _serialNumber, double _price, GuitarSpec _spec)
         {
             serialNumber = _serialNumber;
             price = _price;
-            spec = new GuitarSpec(_builder, _model, _type, _backWood, _topWood);
+            spec = _spec;
         }
+
 
         public string getSerialNumber()
         {
@@ -43,3 +42,4 @@ namespace Chapter_1.ricksGuitars_encapsulation
 
     }
 }
+

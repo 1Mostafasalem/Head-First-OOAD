@@ -14,17 +14,17 @@ namespace Chapter_1.ricksGuitars_choices
         private Type type;
         private Wood backWood, topWood;
 
-        public Guitar(string serialNumber, double price,
-                      Builder builder, string model, Type type,
-                      Wood backWood, Wood topWood)
+        public Guitar(string _serialNumber, double _price,
+                      Builder _builder, string _model, Type _type,
+                      Wood _backWood, Wood _topWood)
         {
-            this.serialNumber = serialNumber;
-            this.price = price;
-            this.builder = builder;
-            this.model = model;
-            this.type = type;
-            this.backWood = backWood;
-            this.topWood = topWood;
+            serialNumber = _serialNumber;
+            price = _price;
+            builder = _builder;
+            model = _model;
+            type = _type;
+            backWood = _backWood;
+            topWood = _topWood;
         }
 
         public string getSerialNumber()
