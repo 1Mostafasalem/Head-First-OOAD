@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Head First OOAD", "Head First OOAD\Head First OOAD.csproj", "{8DF22A79-BC8A-46E7-8946-C0DC2D019D52}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 1", "Chapter 1\Chapter 1.csproj", "{7FD043B4-E16C-48CC-B4B2-C078BCB05B36}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8DF22A79-BC8A-46E7-8946-C0DC2D019D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8DF22A79-BC8A-46E7-8946-C0DC2D019D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8DF22A79-BC8A-46E7-8946-C0DC2D019D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8DF22A79-BC8A-46E7-8946-C0DC2D019D52}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7FD043B4-E16C-48CC-B4B2-C078BCB05B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7FD043B4-E16C-48CC-B4B2-C078BCB05B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FD043B4-E16C-48CC-B4B2-C078BCB05B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
