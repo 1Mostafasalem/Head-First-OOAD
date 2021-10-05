@@ -1,0 +1,62 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Chapter_1.ricksGuitars_start
+{
+    public class Guitar
+    {
+        private String serialNumber, builder, model, type, backWood, topWood;
+        private double price;
+        public Guitar(string _serialNumber, double _price,
+                string _builder, string _model, string _type,
+                string _backWood, string _topWood)
+        {
+           serialNumber = _serialNumber;
+           price = _price;
+           builder = _builder;
+           model = _model;
+           type = _type;
+           backWood = _backWood;
+           topWood = _topWood;
+        }
+
+        public string getSerialNumber()
+        {
+            return serialNumber;
+        }
+
+        public double getPrice()
+        {
+            return price;
+        }
+        public void setPrice(float newPrice)
+        {
+            this.price = newPrice;
+        }
+        public string getBuilder()
+        {
+            return builder;
+        }
+        public string getModel()
+        {
+            return model;
+        }
+        public string getType()
+        {
+            return type;
+        }
+        public string getBackWood()
+        {
+            return backWood;
+        }
+        public string getTopWood()
+        {
+            return topWood;
+        }
+
+
+    }
+}
