@@ -7,7 +7,13 @@ namespace Chapter_2
         static void Main(string[] args)
         {
             ////Start
-            dogDoors_start.DogDoorSimulator.main(args);
+            //dogDoors_start.DogDoorSimulator.main(args);
+
+            ////Timer
+            //dogDoors_timer.DogDoorSimulator.main(args);
+
+            ////Final
+            dogDoors_final.DogDoorSimulator.main(args);
         }
     }
 }
